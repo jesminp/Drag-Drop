@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(44, 42, 42);
+}
+.container{
+    text-align: center;
+    
+    box-sizing: border-box;
+   border-radius: 10px;
+    margin-top: 20rem;
+    margin-left: 25.5rem;
+    display: flex;
+}
+#box2{
+    background-color: rgb(132, 168, 101);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#box1{
+    background-color: rgb(191, 167, 167);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 2s;
+    box-sizing: content-box;
+    font-size: large;
+}
+#box1:hover{
+    background-color: rgb(187, 137, 73);
+}
+#box1 .box1a{
+    width: 6rem;
+    background-color: rgb(95, 155, 135);
+    color: white;
+    margin-left: 4rem;
+    border-radius: 4px;
+}
